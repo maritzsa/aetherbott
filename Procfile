@@ -1,1 +1,1 @@
-worker: node "aetherbot.js"
+worker: node aetherbot.js
