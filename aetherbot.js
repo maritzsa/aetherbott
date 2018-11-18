@@ -6,8 +6,6 @@ var fs = require("fs");
 
 var commandList = fs.readFileSync ("./aetherbot/Commands.txt", {"encoding": "utf-8"});
 
-const token = "NTEzMTA5NjgxMDQ5MTc0MDE5.DtDOPw.Drn6FfSpA9_CHv1Zd7_bBHpaYsk";
-
 client.on ("ready", () => {
     console.log ("ready!!");
 
