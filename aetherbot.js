@@ -9,7 +9,7 @@ var commandList = fs.readFileSync ("./aetherbot/Commands.txt", {"encoding": "utf
 client.on ("ready", () => {
     console.log ("ready!!");
 
-    client.user.setActivity ("Not Streaming LUL");
+    client.user.setActivity ("Mike's Schnoze");
 
 });
 
